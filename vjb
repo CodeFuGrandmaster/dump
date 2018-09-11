@@ -1,0 +1,55 @@
+
+
+*****Player*****
+
+myName
+
+
+
+myCurHP
+myMaxHP
+myCurXP
+myMaxXP
+
+myCurSTR
+myMaxSTR
+myCurDEX
+myMaxDEX
+myCurCON
+myMaxCON
+myCurINT
+myMaxINT
+myCurWIS
+myMaxWIS
+myCurCHA
+myMaxCHA
+
+
+myCurBAB
+myCurCMB
+
+myCurAC
+myCurCMD
+
+myCurBaseFORT
+myCurBaseREF
+myCurBaseWIL
+
+[] myFeats
+[] mySpellsKnown
+[] mySpellsPrepared
+
+
+
+
+Data Access/Manipulation
+Data Retention
+Content Management
+User Interfaces/Graphics
+Mechanics Issues/Checks
+Combat System
+Exploration System
+Crafting System
+Economic/Resource System
+Dialogue/Expositional System
+Mapping System

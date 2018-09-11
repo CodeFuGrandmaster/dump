@@ -1,0 +1,102 @@
+
+body {
+  background: #000;
+  color: red;
+  font-family: "Lucida Console", Monaco, monospace;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  height: 100px;
+}
+
+.top {
+  /*background: blue;*/
+}
+
+.top h1, h3 {
+  text-align: right;
+}
+
+.top h1 {
+  font-size: 64px;
+  margin: 0;
+}
+
+.top h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.main-frame {
+  /*background: red;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-pic {
+  padding: 10px 10px 10px 10px;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.project-pics {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: top;
+  background: white;
+  border: 3px dotted blue;
+}
+
+.project-pics .caption {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: white;
+  /*padding: 10px;*/
+  border: 1px dotted black;
+}
+
+.project-img {
+  width: 50%;
+  height: 50%;
+  padding: 0;
+}
+
+div .foo {
+  border: 2px dashed red;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    background: blue;
+    width: 250px;
+  }
+  
+  .main-pic {
+    width: 250px;
+  }
+  
+  footer h2 {
+    font-size: 12px;
+  }
+  
+  .project-img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+}
